@@ -1,4 +1,4 @@
-resource "aws_s3_bucket" "aws_se_tfstate_bucket" {
+resource "aws_s3_bucket" "aws_s3_tfstate_bucket" {
   bucket = "masterinfra-do-tfstate"
 
   versioning {
