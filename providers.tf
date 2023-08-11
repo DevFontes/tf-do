@@ -3,8 +3,7 @@ provider "digitalocean" {
 }
 
 provider "aws" {
-  version                 = "~> 2.0"
-  shared_credentials_file = "~/.aws/credentials"
-  profile                 = "terraform"
-  region                  = "eu-west-1"
+  region     = "us-east-2"
+  access_key = var.aws_access_key
+  secret_key = var.aws_secret_key
 }

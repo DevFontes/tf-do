@@ -26,6 +26,12 @@ variable "ssh_keyname" {
 variable "do_token" {
 }
 
+variable "aws_access_key" {
+}
+
+variable "aws_secret_key" {
+}
+
 variable "droplets_count" {
   default     = 1
   type        = number
